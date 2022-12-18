@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Form</title>
+</head>
+<body>
+    <h1>Selamat Datang di Kuisioner Kania Nazwa NYONG NYONGG</h1>
+    <form>
+
+        <!-- terdapat input, textarea, select, button, label -->
+        <label for="username">username : </label>
+        <input type="text" id="username">
+        <!-- input ada banyak type nya seperti text, password, radio, checkbox, submit, reset, button -->
+        <!-- dengan menambahkan id dan for kedalam tag nanti pada saat dijalankan akta username bisa langsung menuju ke box -->
+        <br>
+        <label for ="password">password</label>
+        <input type ="password" id="password">
+        <br>
+        <input type="radio" id="pria" name="jeniskelamin"><label for="pria">pria</label>
+        <input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">wanita</label>
+        <!--untuk memberi pilihan or pada radio kita memberikan tag group-->
+        <br>
+        <p><b>Pekerjaan kamu apa: </b></p>
+        <input type="checkbox" id="Penyanyi"><label for="Penyanyi">Penyanyi<br></label>
+        <input type="checkbox" id="Nelayan"><label for="Nelayan">Nelayan<br></label>
+        <input type="checkbox" id="Ngoding"><label for="Ngoding">Ngoding</label>
+        <br><br>
+        
+        <!--<input type="submit" value="kirim"-->
+        <!--TIDAK DISARANKAN MENGGUNAKAN TAG INPUT KARENA SUBMIT ADALAH BUTTON-->
+    </form>
+    <br><hr><br>
+    <form>
+        <h3>Sesi curhat</h3>
+        <textarea>Isi dengan curhatan anda</textarea>
+        <br>
+        <h3>Bagaimana perasaan anda sekarang?</h3>
+        <br>
+        <select>
+            <option>Sudah nyaman</option>
+            <option>Belum nyaman</option>
+            <option>Tidak nyaman</option>
+        </select>
+        <button type="submit">Kirim!</button>
+    </form>
+</body>
+</html>
